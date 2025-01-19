@@ -101,7 +101,7 @@ Outputs the probability of positive sentiment.
 1. <b>Clone the repository:</b>
 ```bash
 
-git clone https://github.com/your-username/sentiment-analysis-rnn.git
+git clone https://github.com/kraj2003/sentiment-analysis-rnn.git
 ```
 
 2. Navigate to the project directory:
@@ -134,8 +134,4 @@ python predict.py --feedback "Your feedback text here"
 ###Replace "Your feedback text here" with the actual feedback you want to analyze.
 ```
 
-Name: Your Name
 
-Email: your.email@example.com
-
-GitHub: your-username
