@@ -4,9 +4,9 @@
 
 - [About the Project](#abouttheproject)
 
-- [Features](#Features)
+- [Features](#features)
 
-- [Technologies Used](#technologies used)
+- [Technologies Used](#technologiesused)
 
 - [Dataset](#dataset)
 
@@ -14,13 +14,13 @@
 
 - [Installation](#installation)
 
-8. Usage
+- [Usage](#usage)
 
-9. Contributing
+- [Contributing](#Contributing)
 
-License
+- [License](#License)
 
-Contact
+- [Contact](#Contact)
 
 ## <h3>About the Project</h3>
 
@@ -42,7 +42,7 @@ This project is a sentiment analysis model built using Recurrent Neural Networks
 
 ## <h3>Technologies Used</h3>
 
-+ Python 3.8+
++ <b>Python 3.8+
 
 + TensorFlow 2.x
 
@@ -50,15 +50,15 @@ This project is a sentiment analysis model built using Recurrent Neural Networks
 
 + NumPy
 
-+ Pandas
++ Pandas</b>
 
 <h3>Dataset</h3>
 
-+ Dataset Name: IMDB Movie Reviews Dataset
++ <b>Dataset Name</b>: IMDB Movie Reviews Dataset
 
-+ Source: Downloaded from the Keras library.
++ <b>Source</b>: Downloaded from the Keras library.
 
-+ Description: A dataset containing 50,000 highly polar movie reviews (25,000 for training and 25,000 for testing) labeled as positive or negative.
++ <b>Description</b>: A dataset containing 50,000 highly polar movie reviews (25,000 for training and 25,000 for testing) labeled as positive or negative.
 
 <h3>Preprocessing:</h3>
 
@@ -68,7 +68,7 @@ This project is a sentiment analysis model built using Recurrent Neural Networks
 
 <h3>Model Architecture</h3>
 
-1. Embedding Layer:
+1. <b>Embedding Layer</b>:
 
   + Converts words into dense vector representations of fixed size.
 
@@ -76,7 +76,7 @@ This project is a sentiment analysis model built using Recurrent Neural Networks
 
   + Output dimension: Embedding size.
 
-2. Recurrent Neural Network (RNN):
+2. <b>Recurrent Neural Network (RNN)</b>:
 
   + Processes sequential data to capture temporal dependencies.
 
@@ -86,75 +86,53 @@ This project is a sentiment analysis model built using Recurrent Neural Networks
 
 Outputs the probability of positive sentiment.
 
-Summary of Model Layers:
+<h3>Summary of Model Layers:</h3>
 
-Input Layer: Padded sequences.
+<b>Input Layer</b>: Padded sequences.
 
-Embedding Layer: Word-to-vector conversion.
+<b>Embedding Layer</b>: Word-to-vector conversion.
 
-RNN Layer: Sequential data modeling.
+<b>RNN Layer</b>: Sequential data modeling.
 
-Dense Layer: Classification.
+<b>Dense Layer</b>: Classification.
 
-Installation
+<h3>Installation</h3>
 
-Clone the repository:
+1. <b>Clone the repository:</b>
+```bash
 
 git clone https://github.com/your-username/sentiment-analysis-rnn.git
+```
 
-Navigate to the project directory:
+2. Navigate to the project directory:
+```bash
+cd project-name
+```
 
-cd sentiment-analysis-rnn
-
-Install the required dependencies:
-
+3. Install the required dependencies:
+```bash
 pip install -r requirements.txt
+```
+<h3>Usage</h3>
 
-Usage
-
-Train the model:
-
+<b>Train the model:</b>
+```bash
 python train.py
 
-This script loads the IMDB dataset, preprocesses the data, trains the RNN model, and saves the trained model.
-
-Evaluate the model:
-
+###This script loads the IMDB dataset, preprocesses the data, trains the RNN model, and saves the trained model.
+```
+<b>Evaluate the model:</b>
+```bash
 python evaluate.py
 
-This script evaluates the model's performance on the test dataset.
-
-Analyze feedback:
-
+###This script evaluates the model's performance on the test dataset.
+```
+<b>Analyze feedback:</b>
+```bash
 python predict.py --feedback "Your feedback text here"
 
-Replace "Your feedback text here" with the actual feedback you want to analyze.
-
-Contributing
-
-Contributions are welcome! Follow these steps:
-
-Fork the project.
-
-Create a feature branch:
-
-git checkout -b feature/your-feature-name
-
-Commit your changes:
-
-git commit -m "Add your feature description"
-
-Push to the branch:
-
-git push origin feature/your-feature-name
-
-Open a pull request.
-
-License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Contact
+###Replace "Your feedback text here" with the actual feedback you want to analyze.
+```
 
 Name: Your Name
 
